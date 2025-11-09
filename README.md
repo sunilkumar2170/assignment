@@ -65,7 +65,7 @@ Copy code
 git clone https://github.com/sunilkumar2170/assignment.git
 cd Mini-Course-Dashboard
 2️⃣ Backend Setup
-bash
+
 Copy code
 cd backend
 npm install
@@ -82,16 +82,17 @@ DB_NAME=discussion_forum
 DB_DIALECT=postgres
 Backend will run on 👉 http://localhost:5000
 
-3️⃣ Frontend Setup
-bash
+ Frontend Setup
+
 Copy code
 cd ../frontend
 npm install
 npm start
-Frontend will run on 👉 http://localhost:3000
 
-🐳 Docker Setup (Optional but Recommended)
+Frontend will run on 👉 http://localhost:3000
+ Docker Setup (Optional but Recommended)
 You can run both frontend and backend using Docker with a single command.
+
 
 Step 1: Build and start containers
 bash
